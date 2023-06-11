@@ -1,0 +1,30 @@
+.coursesCard{
+    width: 400px;
+    height: 300px;
+    padding: 12px;
+  
+  }
+  
+  .coursesCard-img{
+    
+    width: 100%;
+    height: 180px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  .coursesCard-img img{
+    border-radius: 8px;
+    width: 100%;
+   height: 100%;
+ 
+    object-fit: cover;
+  }
+  .coursesCard-text h3{
+    margin-bottom: 30px;
+    margin-top: 20px; 
+    line-height: 30px;
+    font-weight: bold;
+  }
+  .coursesCard-text p{
+    line-height: 25px;
+  }

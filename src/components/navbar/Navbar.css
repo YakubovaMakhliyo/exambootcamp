@@ -1,0 +1,94 @@
+.navbar {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.navbar-logo {
+  width: 350px;
+  cursor: pointer;
+}
+.navbar-logo img {
+  width: 100%;
+  object-fit: cover;
+}
+.navbar-fiil {
+  width: 330px;
+  height: 45px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 12px;
+  border-radius: 50px;
+}
+.navbar-fiil p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.01em;
+  color: #80755c;
+  margin-left: 10px;
+}
+.navbar-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 34px;
+}
+.navbar-btn {
+  width: 150px;
+  padding: 15px 0px;
+  background: white;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: #000000;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.navbar-icon__btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 360px) {
+  .navbar {
+    width: 100%;
+  }
+  .filt {
+    display: none;
+  }
+  .navbar-logo {
+    width: 100px;
+    cursor: pointer;
+    margin-left: 15px;
+  }
+  .navbar-btn {
+    width: 82px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .navbar-fiil {
+    width: 20px;
+    height: 20px;
+    
+    border-radius: 50%;
+  }
+}

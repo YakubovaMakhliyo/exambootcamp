@@ -1,0 +1,47 @@
+.filterbtn {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.filterBtn-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 45px;
+  background: #f7f7f5;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+  text-transform: capitalize;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.filterActive {
+  color: white !important;
+  background: #a77946 !important ;
+}
+@media screen and (max-width: 360px) {
+  .filterbtn {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .filterBtn-btn{
+    width: 91
+    px;
+    font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  }
+}
